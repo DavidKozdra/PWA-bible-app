@@ -1,28 +1,86 @@
-## Usage
+Here's a README template for your SolidJS PWA Bible app:
+
+---
+
+# PWA Bible App
+
+A Progressive Web Application (PWA) for reading the Bible, designed with accessibility in mind, both online and offline. This app is built using [SolidJS](https://solidjs.com/) and offers a free, accessible way to study the Bible.
+
+## Table of Contents
+
+- [Features](#features)
+- [Getting Started](#getting-started)
+- [Installation](#installation)
+- [Running the App](#running-the-app)
+- [Deployment](#deployment)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+
+## Features
+
+- **Offline Access**: View Bible passages without an internet connection.
+- **Fast and Responsive**: Built as a PWA for quick load times and offline capability.
+- **Accessibility-Focused**: Designed to be usable by everyone, regardless of device or connection.
+- **Free to Use**: No cost to download or access any features.
+
+## Getting Started
+
+To get started, clone the repository to your local machine:
 
 ```bash
-$ npm install # or pnpm install or yarn install
+git clone https://github.com/DavidKozdra/PWA-bible-app.git
+cd PWA-bible-app
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+## Installation
 
-## Available Scripts
+1. Ensure Node.js and npm are installed.
+2. Install dependencies:
 
-In the project directory, you can run:
+   ```bash
+   npm install
+   ```
 
-### `npm run dev`
+## Running the App
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+To run the application locally:
 
-### `npm run build`
+1. Start the development server:
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+   ```bash
+   npm run dev
+   ```
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+2. Open your browser to the local server address (usually `http://localhost:3000`).
 
-## Deployment
+### Building for Production
 
-Learn more about deploying your application with the [documentations](https://vitejs.dev/guide/static-deploy.html)
+To create a production build:
+
+```bash
+npm run build
+```
+
+The production files will be generated in the `dist/` folder.
+
+### Testing the PWA
+
+To test PWA capabilities (offline mode, caching, etc.):
+
+1. Build the app using `npm run build`.
+2. Serve the app locally using a server that supports PWAs, such as `vite preview`.
+
+   ```bash
+   npm run preview
+   ```
+
+3. Open the app in a browser and inspect PWA capabilities through browser developer tools.
+
+
+## Contributing
+
+Contributions are welcome! Please fork the repository and create a pull request.
+
+---
+
+This README provides a clear guide for installation, running, and deploying the PWA Bible app. Let me know if you'd like to add more specific sections, like API details or accessibility features.
